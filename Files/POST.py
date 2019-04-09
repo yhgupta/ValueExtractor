@@ -33,7 +33,7 @@ def get_image(testName, image):
     # extracting response text
     text = r.text
 
-    path = r"C:\Users\YASH\PycharmProjects\ValueExtractor\Json"
+    path = r"Directory in which files generated to be added"
     os.chdir(path)
     complete_name = testName + ".json"
     with open(complete_name, 'w', encoding='utf-8') as f:
